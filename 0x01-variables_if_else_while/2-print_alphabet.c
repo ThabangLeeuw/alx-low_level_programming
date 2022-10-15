@@ -8,9 +8,10 @@
 int main(void)
 {
 	int i;
+	char b[26] = "abcdefghijklmnopqrstuvwxyz";
 
 	for (i = 'a'; i <= 'z'; i++)
-		putchar(i);
+		putchar(b[i]);
 		putchar('\n');
 		return (0);
 
