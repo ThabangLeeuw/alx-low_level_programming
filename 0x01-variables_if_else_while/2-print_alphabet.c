@@ -9,10 +9,9 @@ int main(void)
 {
 	int n;
 
-	char t = tolower();
+	for (i = 'a'; i <= 'z'; i++)
+		putchar(i);
+		putchar('\n');
+		return (0);
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	putchar(t + "\n");
-	return (0);
 }
