@@ -9,9 +9,10 @@ int main(void)
 {
 	int n;
 
+	char t = tolower();
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	t = tolower(t);
 	putchar(t + "\n");
 	return (0);
 }
