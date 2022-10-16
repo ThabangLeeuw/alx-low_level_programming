@@ -6,14 +6,18 @@
  */
 int main(void)
 {
-	char alph[52] = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	int i;
+	int j;
 
-	for (i = 0; i < 52; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		puthcar(alph[i]);
+		puthcar(i);
 	}
-	putchar('\n');
+	for (j = 'A'; j = 'Z'; j++)
+	{
+		putchar(j + '\n');
+	}
+
 	return (0);
 
 }
