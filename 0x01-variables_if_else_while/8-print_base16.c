@@ -9,9 +9,9 @@ int main(void)
 	int i;
 	int j;
 
-	for (i = 0; i <= 16; i++)
+	for (i = 0; i < 10; i++)
 	{
-		putchar(i % 16);
+		putchar((i % 10) + '0');
 
 	}
 
