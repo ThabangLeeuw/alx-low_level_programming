@@ -8,9 +8,9 @@ int main(void)
 {
 	int i;
 
-	for (i = 'z'; i <= 'a'; i++)
+	for (i = 'z'; i <= 'a'; i--)
 	{
-		putchar(i);
+		putchar('%c', i);
 
 	}
 	putchar('\n');
