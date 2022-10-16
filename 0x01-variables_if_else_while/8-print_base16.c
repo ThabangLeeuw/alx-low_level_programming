@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	char i;
-	char j;
+	int i;
+	int j;
 
 	for (i = 0; i <= 16; i++)
 	{
-		putchar(i % 16);
+		putchar((i % 16) + '0');
 
 	}
 
