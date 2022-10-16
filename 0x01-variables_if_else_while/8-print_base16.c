@@ -7,12 +7,19 @@
 int main(void)
 {
 	char i;
+	char j;
 
 	for (i = 0; i <= 16; i++)
 	{
-		putchar((i % 16) + '0');
+		putchar(i % 16);
 
+	}
+
+	for (j = 'a'; j <= 'f'; j++)
+	{
+		putchar(j)
 	}
 	putchar('\n');
 	return (0);
+
 }
