@@ -8,9 +8,9 @@ int main(void)
 {
 	int i;
 
-	for (i = 'A'; i <= 'Z'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(tolower(i));
+		putchar(i);
 
 		if (i == 'q' || i == 'e')
 		{
