@@ -1,15 +1,20 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 /**
  * main -Function
+ * This programme was written by Imraan Thabang Leeuw
  * Return: 0
  */
 int main(void)
 {
-	char k = 'putchar';
 
-#include "main.h"
-
-	putchar(k);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 	return (0);
 }
