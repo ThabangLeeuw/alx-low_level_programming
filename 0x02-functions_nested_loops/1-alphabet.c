@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * main - prints alphabets in lowercase
+ * print_alphabet - prints alphabets in lowercase
  * Return: 0
  * This program was written by Imraan ThabangLeeuw
  */
-int main(void)
+void print_alphabet(void)
 {
-	int f;
+	char f;
 
 	for (f = 'a'; f <= 'z'; f++)
 	{
-		_putchar(f + '0');
+		_putchar(f);
 	}
 	_putchar('\n');
 	return (0);
