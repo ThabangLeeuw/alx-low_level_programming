@@ -1,21 +1,21 @@
 #include "main.h"
 /**
  * _abs - prints the absolute value
- * @n: will return absolut value
+ * @z: will return absolut value
  * Return: returns absolute value
  */
-int _abs(int n)
+int _abs(int z)
 {
-	int n;
 
-	if (n < 0)
+
+	if (z < 0)
 	{
-		n = n + (n * 2);
-		_putchar(n);
+		z = z + (z * 2);
+		_putchar(z);
 
 	}
 	else
 	{
-		_putchar(n);
+		_putchar(z);
 	}
 }
