@@ -13,7 +13,8 @@ int main(void)
 
 	while (i < 10)
 	{
-		putchar(i); /** missing an increment i++; on the next line **/
+		putchar(i); /** remove this line, it is not necessary for this program**/
+		/** missing an increment i++; **/
 	}
 	printf("Infinite loop avoided! \\o/\n");
 
