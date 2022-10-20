@@ -7,7 +7,7 @@ void print_numbers(void)
 {
 	int g
 
-	while (g = 48 && g <= 57)
+	while (g = 48 && g < 58)
 	{
 		_putchar(g);
 		g++;
