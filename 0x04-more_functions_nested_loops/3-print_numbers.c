@@ -7,10 +7,9 @@ void print_numbers(void)
 {
 	int g
 
-	while (g = 48 && g < 58)
+	for (g = 48; g < 58; g++)
 	{
 		_putchar(g);
-		g++;
 
 	}
 	_putchar('\n');
