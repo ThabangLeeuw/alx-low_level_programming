@@ -7,10 +7,10 @@ void print_most_numbers(void)
 {
 	int p;
 
-	for (p = 0; p <= 9; p++)
+	for (p = 48; p < 58; p++)
 	{
 
-		if ((p != 2) && (p != 4))
+		if ((p != 50) && (p != 52))
 		{
 			_putchar(p + '0');
 		}
