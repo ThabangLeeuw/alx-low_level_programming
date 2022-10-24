@@ -1,0 +1,14 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * reset_to_98 - function I will use to declare pointers
+ * @n: the pointer variable name
+ * Program written by Imraan Thabang Leeuw
+ */
+void reset_to_98(int *n)
+{
+	*n = 98;
+
+	_putchar(*n);
+}
