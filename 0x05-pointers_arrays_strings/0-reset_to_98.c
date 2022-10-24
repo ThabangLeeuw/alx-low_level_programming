@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * reset_to_98 - function I will use to declare pointers
@@ -10,5 +10,5 @@ void reset_to_98(int *n)
 {
 	*n = 98;
 
-	_putchar(*n);
+	putchar(*n);
 }
