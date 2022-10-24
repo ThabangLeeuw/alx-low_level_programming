@@ -5,17 +5,13 @@
  */
 void _puts(char *str)
 {
-	int count;
+	int count = 0;
 
-	while (count >= 0)
+	while (*s != '\0')
 	{
-		if (str[count] == '\0')
-		{
-			putchar('\n');
-			break;
-		}
-		putchar(str[count]);
 		count++;
+		*s++;
 	}
+	return (count);
 
 }
