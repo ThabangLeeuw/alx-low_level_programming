@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unist.h>
+#include <unistd.h>
 /**
  * _puts - puts function
  * @str: variable
