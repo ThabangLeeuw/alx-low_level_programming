@@ -17,5 +17,5 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 	putchar('\n');
-	return (*dest);
+	return (dest);
 }
